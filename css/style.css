@@ -22,6 +22,9 @@ h1 {
 .text_blue {
   color: #3385ff;
 }
+.text_grey {
+  color: #5b6987;
+}
 .text_white {
   color: #fff;
 }
@@ -53,6 +56,12 @@ h1 {
 .mg_top {
   margin-top: 10px;
 }
+.bg_grey {
+  background-color: #f3f5f9;
+}
+a:hover {
+  text-decoration: none;
+}
 /* Hero */
 .hero {
   background-image: url('../img/bg-home-hero.svg');
@@ -76,7 +85,7 @@ h1 {
 }
 .btn_google a {
   font-weight: bold;
-  color: grey;
+  color: #5b6987;
 }
 .btn_google a:hover {
   text-decoration: none;
@@ -87,8 +96,19 @@ h1 {
 .form_terms a:hover {
   text-decoration: none;
 }
+/* Sezione Business */
+.title_business {
+  margin-top: 100px;
+  font-weight: bold;
+}
+.logo_sponsor > img {
+  width: calc((100% / 6 ) - 4px);
+  padding: 10px 10px;
 
-
+}
+.logo_sponsor {
+  display: inline-block;
+}
 
 
 
@@ -98,4 +118,14 @@ h1 {
    float: right;
    margin-top: 20px;
   }
+}
+@media screen and (max-width: 768px) {
+  .logo_sponsor > img {
+    width: 50%;
+
+  }
+  .logo_sponsor {
+    float: left;
+  }
+
 }
