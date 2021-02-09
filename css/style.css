@@ -1,3 +1,42 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* Header Nav */
+.header_nav {
+  line-height: 60px;
+  vertical-align: middle;
+}
+.nav_logo > img {
+  width: 180px;
+}
+.nav_primary li a , .nav_secondary li a {
+  color: #00001a;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+/* Buttons */
+.btn_primary {
+  border: 1px solid  #0066ff;
+  background-color: transparent;
+  color:  #0066ff;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 1198px) {
+  .btn_primary {
+   float: right;
+   margin-top: 20px;
+  }
+}
