@@ -32,6 +32,9 @@ h1 {
 .text_white {
   color: #fff;
 }
+small {
+  font-weight: bold;
+}
 /* Buttons */
 .btn_primary {
   border: 1px solid  #0066ff;
@@ -59,6 +62,9 @@ h1 {
 /* Mix */
 .mg_top {
   margin-top: 10px;
+}
+.mg_bottom {
+  margin-bottom: 30px;
 }
 .bg_grey {
   background-color: #f3f5f9;
@@ -158,9 +164,7 @@ a:hover {
   padding: 20px 0;
 }
 /* Sezione Design */
-#design {
 
-}
 .p_design {
   font-size: 15px;
   font-weight: 600;
@@ -170,10 +174,11 @@ a:hover {
   margin: auto;
   margin-top: 50px;
 }
+.carousel_design {
+  text-align: center;
+}
 .carousel_design > img  {
  max-width: 500px;
- margin-left: 30px;
- margin-right: 30px;
 }
 .carousel_design > i {
   font-size: 35px;
@@ -185,19 +190,44 @@ a:hover {
 #feature {
   margin-top: 50px;
 }
-
+/* Around the world */
+#aroundtheworld {
+  background-image: url('../img/bg-map.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #031b43;
+  padding: 100px 0;
+}
+/* Development */
+.text_carousel {
+ width: 400px;
+  background-color: yellow;
+  display: inline-block;
+  padding: 20px 20px;
+}
+.img_caro {
+  width: 100px;
+}
 /* Responsive */
 @media screen and (max-width: 1198px) {
   .btn_primary {
    float: right;
    margin-top: 20px;
+
   }
+  .carousel_design > img  {
+   max-width: 300px;
+  }
+
 }
 @media screen and (max-width: 768px) {
 
   .logo_sponsor > img {
     width: calc(50% - 4px)
-
     }
+    .carousel_design > img  {
+     max-width: 200px;
+    }
+
 
 }
