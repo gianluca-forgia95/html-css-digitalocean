@@ -69,6 +69,7 @@ a:hover {
 .mg_big {
   margin-top: 25px;
 }
+
 /* Hero */
 .hero {
   background-image: url('../img/bg-home-hero.svg');
@@ -129,6 +130,10 @@ a:hover {
 .title_deploy {
   margin-top: 50px;
 }
+.p_deploy {
+  font-size: 15px;
+  font-weight: bold;
+}
 .list_deploy ul {
   list-style: none;
   padding: 20px 10px;
@@ -151,6 +156,30 @@ a:hover {
 }
 .box_img {
   padding: 20px 0;
+}
+/* Sezione Design */
+#design {
+
+}
+.p_design {
+  font-size: 15px;
+  font-weight: 600;
+}
+.container_carousel {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px;
+}
+.carousel_design > img  {
+ max-width: 500px;
+ margin-left: 30px;
+ margin-right: 30px;
+}
+.carousel_design > i {
+  font-size: 35px;
+}
+.circle {
+  margin-top: 40px;
 }
 
 /* Responsive */
