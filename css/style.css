@@ -180,7 +180,7 @@ a:hover {
 .carousel_design > img  {
  max-width: 500px;
 }
-.carousel_design > i {
+.carousel_design  i {
   font-size: 35px;
 }
 .circle {
@@ -200,13 +200,16 @@ a:hover {
 }
 /* Development */
 .text_carousel {
- width: 400px;
-  background-color: yellow;
+  max-width: 300px;
   display: inline-block;
   padding: 20px 20px;
+  line-height: 30px;
+  background-color: #fff;
+
 }
 .img_caro {
-  width: 100px;
+  max-width: 180px;
+}
 }
 /* Responsive */
 @media screen and (max-width: 1198px) {
