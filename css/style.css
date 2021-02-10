@@ -10,7 +10,7 @@ body {
   width: 180px;
 }
 .nav_primary li a , .nav_secondary li a {
-  color: #00001a;
+  color: #000066;
   font-weight: 700;
   padding: 0 5px;
 }
@@ -23,7 +23,8 @@ h1 {
   color: #3385ff;
 }
 .text_dark_blue {
-  color: #00001a;
+  color: #000066;
+  font-weight: bold;
 }
 .text_grey {
   color: #5b6987;
@@ -103,9 +104,13 @@ a:hover {
   text-decoration: none;
 }
 /* Sezione Business */
+#business {
+  padding: 80px 50px;
+  margin-top: 80px;
+}
 .title_business {
-  margin-top: 100px;
   font-weight: bold;
+  margin-top: 80px;
 }
 .logo_sponsor > img {
   width: calc((100% / 6 ) - 4px);
@@ -121,18 +126,25 @@ a:hover {
   margin: auto;
   margin-top: 20px;
 }
+.title_deploy {
+  margin-top: 50px;
+}
 .list_deploy ul {
   list-style: none;
-  padding: 20px 2px;
+  padding: 20px 10px;
 
 }
 .list_deploy {
-  border-left: 1px solid black;
+  border-left: 1px solid grey;
   line-height: 50px;
+  color: grey;
 }
 .list_deploy > li a {
   padding: 10px 5px;
 
+}
+.list_deploy a {
+  color: #5b6987;
 }
 .box_global {
   margin-top: 60px;
@@ -150,6 +162,9 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
 
-  
+  .logo_sponsor > img {
+    width: calc(50% - 4px)
+
+    }
 
 }
