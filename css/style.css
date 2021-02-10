@@ -181,6 +181,10 @@ a:hover {
 .circle {
   margin-top: 40px;
 }
+/* Feature */
+#feature {
+  margin-top: 50px;
+}
 
 /* Responsive */
 @media screen and (max-width: 1198px) {
