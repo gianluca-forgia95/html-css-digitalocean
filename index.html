@@ -94,7 +94,7 @@
     </header>
     <main>
     <!-- Business -->
-      <section id="business bg_grey">
+      <section id="business" class="bg_grey">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 text_grey">
@@ -176,7 +176,7 @@
     </section>
     <!-- /Deploy -->
     <!-- Design -->
-    <section id=" bg_grey">
+    <section class="bg_grey">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -193,9 +193,11 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="carousel_design">
-                <i class="fas fa-angle-left text_grey"></i>
-                <img src="img/screenshot-create-droplet-12336b41.jpg" alt="Carousel">
-                <i class="fas fa-angle-right text_dark_blue"></i>
+                <i class="fas fa-angle-left text_grey carousel_arrow"></i>
+                <div class="carousel_inner">
+                  <img src="img/screenshot-create-droplet-12336b41.jpg" alt="Carousel">
+                </div>
+                <i class="fas fa-angle-right text_dark_blue carousel_arrow"></i>
               </div>
             </div>
           </div>
@@ -341,7 +343,7 @@
     </section>
     <!-- /Around the world -->
     <!-- Development -->
-    <section id="bg_grey">
+    <section id="development" class="bg_grey">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -358,25 +360,28 @@
             <div class="col-xs-12">
               <div class="carousel_design">
                 <i class="fas fa-angle-left text_grey"></i>
-                <div class="text_carousel text-center">
-                 <div class="logo_carousel">
-                   <img class="img_caro" src="img/rockerbox.webp" alt="rockerbox">
-                 </div>
-                 <p class="text_grey">"We have been able to make scaling the technical infrastructure of our business cost effective an efficient"</p>
-                 <small class="author">Rick O'Toole<small>
-                 <div class="bio_author">
-                   <small>Co-founder and CTO</small>
+                  <div class="carousel_inner">
+                   <div class="text_carousel text-center">
+                    <div class="logo_carousel">
+                      <img class="img_caro" src="img/rockerbox.webp" alt="rockerbox">
+                    </div>
+                    <p class="text_grey">"We have been able to make scaling the technical infrastructure of our business cost effective an efficient"</p>
+                    <span class="author author_name">Brian O'Toole</span>
+                    <div class="author_bio">
+                     <span>Co-Founder and CTO</span>
+                    </div>
                     <div class="link_carousel">
-                    <a href="#" class="text_blue">Read story<span class="glyphicon glyphicon-menu-right"></span></a>
+                    <a href="#" class="text_blue">Read story<span class="glyphicon glyphicon-menu-right arrow_link"></span></a>
                     </div>
                  </div>
                 </div>
                 <i class="fas fa-angle-right text_dark_blue"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+
      <!-- /Carousel -->
      <div class="container">
        <div class="row">
@@ -400,7 +405,7 @@
           <div class="col-xs-12">
             <div class="text-center">
               <h2 class="text_white">Get started now.</h2>
-              <button type="button" class="btn btn_primary">Create your account</button>
+              <button type="button" class="btn btn_primary text-center">Create your account</button>
             </div>
           </div>
         </div>
@@ -500,12 +505,13 @@
           <div class="cloud_shark">
             <p>Can I help answer any questions about Digital Ocean?</p>
           </div>
-          <div class="arrow-right">  </div>
-          <div class="shark_img">
+          <div class="arrow-right"></div>
+           <div class="shark_img">
             <img src="img/sammy_shark.png" alt="Shark">
+           <div class="alert_shark"><small class="text-center text_white number_notify">2</small></div>
 
           </div>
-        
+
         </div>
       </div>
 
