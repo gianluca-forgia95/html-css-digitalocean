@@ -130,12 +130,10 @@ a:focus {
 }
 /* Sezione Business */
 #business {
-  padding: 80px 50px;
-
+  padding: 50px 0px;
 }
 .title_business {
   font-weight: bold;
-
 }
 .logo_sponsor > img {
   width: calc((100% / 6 ) - 4px);
@@ -284,9 +282,11 @@ width: 100%;
 .list_footer a {
   color: #5b6987;
 }
+/* Shark Helper */
  .shark {
    position: fixed;
-   bottom: 0;
+   bottom: 30px;
+   right: 80px;
  }
 .cloud_shark {
   width: 200px;
@@ -294,7 +294,7 @@ width: 100%;
   line-height: 20px;
   vertical-align: middle;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #3385ff;
   text-align: center;
   float: left;
   margin-left: 70px;
@@ -305,7 +305,7 @@ width: 100%;
   height: 0;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-left: 5px solid #fff;
+  border-left: 5px solid #3385ff;
   float: left;
   margin-top: 25px;
 }
@@ -352,10 +352,7 @@ width: 100%;
   .logo_carousel > img {
     max-width: 140px;
   }
-  .shark {
-    position: static;
 
-  }
 
 }
 @media screen and (max-width: 768px) {
@@ -365,11 +362,17 @@ width: 100%;
   .logo_sponsor > img {
     width: calc(50% - 4px)
     }
-    .carousel_design > img  {
+    .carousel_inner > img  {
      max-width: 200px;
     }
     .logo_carousel > img {
       max-width: 100px;
+    }
+    .carousel_inner {
+      max-width: 250px;
+    }
+    .shark {
+      position: static;
     }
 
 
